@@ -44,3 +44,5 @@ npm start
 
 - **Product Analysis**
   - `GET /api/v1/products/summary`: Get product-wise ordering quantity with total item value
+ 
+  -For more details, please refer to the [Postman API Documentation](https://documenter.getpostman.com/view/27183443/2sAXjF8aQd).
