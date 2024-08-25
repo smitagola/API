@@ -19,8 +19,7 @@ This project is an e-commerce application built using Node.js, Express, PostgreS
 - **Database**: PostgreSQL
 - **Authentication**: JWT (JSON Web Tokens), bcrypt for password hashing
 - **Environment Management**: dotenv
-
-- 
+ 
 ## RUN 
 npm start
 
