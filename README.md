@@ -26,17 +26,21 @@ npm start
 
 
 **API Endpoints**
-        Authentication
-                POST /api/v1/auth/signup: Register a new user
-                POST /api/v1/auth/login: Log in a user and return an access token
-                POST /api/v1/auth/logout: Log out a user
-        Cart Management
-                POST /api/v1/cart/:id/add: Add a product to the user's cart
-                GET /api/v1/cart/:id: Get all cart items for the user
-                DELETE /api/v1/cart/:id/remove: Remove a product from the cart
-        Order Management
-                POST /api/v1/orders/:id/place: Place an order from the user's cart
-                GET /api/v1/orders/:id: Get all orders of the logged-in user
-                GET /api/v1/order/:orderId: Get details of a specific order
-        Product Analysis
-                GET /api/v1/products/summary: Get product-wise ordering quantity with total item value
+
+- **Authentication**
+  - `POST /api/v1/auth/signup`: Register a new user
+  - `POST /api/v1/auth/login`: Log in a user and return an access token
+  - `POST /api/v1/auth/logout`: Log out a user
+
+- **Cart Management**
+  - `POST /api/v1/cart/:id/add`: Add a product to the user's cart
+  - `GET /api/v1/cart/:id`: Get all cart items for the user
+  - `DELETE /api/v1/cart/:id/remove`: Remove a product from the cart
+
+- **Order Management**
+  - `POST /api/v1/orders/:id/place`: Place an order from the user's cart
+  - `GET /api/v1/orders/:id`: Get all orders of the logged-in user
+  - `GET /api/v1/order/:orderId`: Get details of a specific order
+
+- **Product Analysis**
+  - `GET /api/v1/products/summary`: Get product-wise ordering quantity with total item value
